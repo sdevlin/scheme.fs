@@ -126,4 +126,4 @@ let main () =
   List.iter print program
   List.iter ((eval globalEnv) >> print) program
 
-main ();;
+main ()
